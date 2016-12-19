@@ -44,11 +44,6 @@ CLI Tools
 
 Command line tools to perform operations on markdown source files – such as conversion to and from other formats, source tidying up, auto-generation of TOC, etc.
 
----
-title: pandoc
-layout: post
----
-
 ### Pandoc
 
 Pandoc is such a key tool in the world of markdown that it deserves a folder of its own within this repo:
