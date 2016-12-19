@@ -9,13 +9,12 @@ This project is maintained by Tristano Ajmone (aka T.Ajmonides), it was created 
 
 The markdown-guide project is unrestrictedly free to use: it is released into the public domain under [Unlicense](./LICENSE) terms.
 
-
-
 ------------------------------------------------------------------------
 
 <!-- #toc -->
 -   [About Markdown](#about-markdown)
 -   [Markdown Tools](#markdown-tools)
+    -   [Editors](#editors)
     -   [CLI Tools](#cli-tools)
         -   [Pandoc](#pandoc)
 -   [Awesomeness](#awesomeness)
@@ -37,11 +36,12 @@ Documents on markdown history, its motives, how it evolved, etc.
 Markdown Tools
 ==============
 
-## Editors
+Editors
+-------
 
 There is a whole document dedicated to Markdown editors:
 
-- [`EDITORS.md`](./EDITORS.md)
+-   [`EDITORS.md`](./EDITORS.md)
 
 CLI Tools
 ---------
