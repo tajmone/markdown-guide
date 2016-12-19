@@ -18,7 +18,12 @@ These terms might not apply to third party resources included in the project: th
 <!-- #toc -->
 -   [About Markdown](#about-markdown)
 -   [Markdown Tools](#markdown-tools)
-    -   [Pandoc](#pandoc)
+    -   [CLI Tools](#cli-tools)
+        -   [Pandoc](#pandoc)
+-   [Awesomeness](#awesomeness)
+    -   [Awesome Markdown](#awesome-markdown)
+    -   [Awesome Kramdown](#awesome-kramdown)
+    -   [Markdown Alternatives](#markdown-alternatives)
 
 <!-- /toc -->
 
@@ -34,12 +39,40 @@ Documents on markdown history, its motives, how it evolved, etc.
 Markdown Tools
 ==============
 
+CLI Tools
+---------
+
 Command line tools to perform operations on markdown source files – such as conversion to and from other formats, source tidying up, auto-generation of TOC, etc.
 
-Pandoc
-------
+### Pandoc
 
 Pandoc is such a key tool in the world of markdown that it deserves a folder of its own within this repo:
 
 -   [`/pandoc/`](./pandoc/) – pandoc related markdown resources.
+
+Awesomeness
+===========
+
+> “Only awesome is awesome”
+>
+> – *The awesome manifesto* [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome/blob/master/awesome.md)
+
+Awesome Markdown
+----------------
+
+-   [**Awesome Markdown Editors & (Pre)viewers**](https://github.com/mundimark/awesome-markdown-editors) (@mundimark) – A collection of awesome markdown editors & (pre)viewers for Linux, Apple OS X, Microsoft Windows, the World Wide Web & more.
+-   [**Awesome Markdown**](https://github.com/BubuAnabelas/awesome-markdown) (@BubuAnabelas) – A curated list of delightful Markdown stuff.
+-   [**Awesome Markdown**](https://github.com/mashk/awesome-markdown) (@mashk) – A curated list of awesome Markdown tools.
+-   [**Awesome Markdown**](https://github.com/mundimark/awesome-markdown) (@mundimark) – A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)
+-   [**Markdown Resources**](https://github.com/rhythmus/markdown-resources) (@rhythmus) – A curated collection of Markdown resources: apps, dialects, parsers, people, …
+
+Awesome Kramdown
+----------------
+
+-   [**Awesome kramdown**](https://github.com/viennahtml/awesome-kramdown) (@viennahtml) – A collection of awesome kramdown goodies for the markdown converter made with ♥ in Vienna ;-)
+
+Markdown Alternatives
+---------------------
+
+-   [**Awesome Markdown Alternatives**](https://github.com/mundimark/awesome-markdown-alternatives) (@mundimark)
 
