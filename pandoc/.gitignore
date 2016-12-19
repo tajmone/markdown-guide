@@ -1,0 +1,4 @@
+# .gitignore for /pandoc/
+
+# Exclude files created by "list-pandoc-formats.bat"
+pandoc-*-*.txt
