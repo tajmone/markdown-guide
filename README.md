@@ -7,7 +7,7 @@ This is the *Moreh Nevukhim* (מורה נבוכים) of all markdown seekers.
 
 This project is maintained by Tristano Ajmone (aka T.Ajmonides), it was created in December 2016, and its title is a witty homage to the great *Rambam*.
 
-__License__
+**License**
 
 The markdown-guide project is unrestrictedly free to use: it is released into the public domain under [Unlicense](./LICENSE) terms.
 
@@ -16,7 +16,6 @@ These terms might not apply to third party resources included in the project: th
 ------------------------------------------------------------------------
 
 <!-- #toc -->
--   [License](#license)
 -   [About Markdown](#about-markdown)
 -   [Markdown Tools](#markdown-tools)
     -   [Pandoc](#pandoc)
