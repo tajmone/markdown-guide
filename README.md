@@ -7,11 +7,9 @@ This is the *Moreh Nevukhim* (מורה נבוכים) of all markdown seekers.
 
 This project is maintained by Tristano Ajmone (aka T.Ajmonides), it was created in December 2016, and its title is a witty homage to the great *Rambam*.
 
-**License**
-
 The markdown-guide project is unrestrictedly free to use: it is released into the public domain under [Unlicense](./LICENSE) terms.
 
-These terms might not apply to third party resources included in the project: they retain their own license, as shall be indicated by a `LICENSE` file found within the same folder. It is commonly assumed that the presence of a `LICENSE` file within a folder indicates that specific license terms apply to the contents of that folder.
+
 
 ------------------------------------------------------------------------
 
@@ -38,6 +36,12 @@ Documents on markdown history, its motives, how it evolved, etc.
 
 Markdown Tools
 ==============
+
+## Editors
+
+There is a whole document dedicated to Markdown editors:
+
+- [`EDITORS.md`](./EDITORS.md)
 
 CLI Tools
 ---------
