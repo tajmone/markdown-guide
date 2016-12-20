@@ -31,6 +31,9 @@ About Markdown
 
 Documents on markdown history, its motives, how it evolved, etc.
 
+- https://daringfireball.net/projects/markdown/ -- John Gruber's website: where it all started...
+- [Wikipedia entry for markdown](https://en.wikipedia.org/wiki/Markdown)
+
 (WIP – Work In Progress)
 
 Markdown Tools
@@ -39,9 +42,10 @@ Markdown Tools
 Editors
 -------
 
-There is a whole document dedicated to Markdown editors:
+The [`/editors/`](./editors/) folder is dedicated to Markdown editing and editors:
 
--   [`EDITORS.md`](./EDITORS.md)
+-   [Introduction to Markdown Editing](./editors/README.md)
+-   [Dedicated Makdown Editors](./editors/DEDICATED_EDITORS.md)
 
 CLI Tools
 ---------
