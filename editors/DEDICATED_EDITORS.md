@@ -25,12 +25,23 @@ A list of markdown-specific editors.
 
 **FREE AND OPEN SOURCE EDITORS:**
 
-| EDITOR                      | PLATFORMS         | TECHNOLOGY              |
-|-----------------------------|-------------------|-------------------------|
-| [ghostwriter](#ghostwriter) | Win + Linux       | C++ / Qt Webkit         |
-| [markright](#markright)     | Win + Linux + Mac | Electron / Clojure      |
-| [Marp](#marp)               | Win + Linux + Mac | Electron / CoffeeScript |
-| [PileMd](#pilemd)           | Win + Linux + Mac | Electron / JavaScript   |
+|            EDITOR           |     PLATFORMS     | MD FLVR |        TECHNOLOGY       |
+|-----------------------------|-------------------|---------|-------------------------|
+| [ghostwriter](#ghostwriter) | Win + Linux       |         | C++ / Qt Webkit         |
+| [markright](#markright)     | Win + Linux + Mac | GFM     | Electron / Clojure      |
+| [Marp](#marp)               | Win + Linux + Mac |         | Electron / CoffeeScript |
+| [PileMd](#pilemd)           | Win + Linux + Mac |         | Electron / JavaScript   |
+
+
+**ALL EDITORS TECH COMPARISON:**
+
+|            EDITOR           | MD FLVR |      PARSER      |        TECHNOLOGY       |
+|-----------------------------|---------|------------------|-------------------------|
+| [ghostwriter](#ghostwriter) |         | Sundown / Pandoc | C++ / Qt Webkit         |
+| [markright](#markright)     | GFM     | _custom_?        | Electron / Clojure      |
+| [Marp](#marp)               |         | markdown-it      | Electron / CoffeeScript |
+| [PileMd](#pilemd)           |         | marked           | Electron / JavaScript   |
+
 
 ------------------------------------------------------------------------
 
@@ -42,7 +53,7 @@ ghostwriter
 -   <http://wereturtle.github.io/ghostwriter/>
 -   <https://github.com/wereturtle/ghostwriter>
 
-![ghostwriter](http://wereturtle.github.io/ghostwriter/images/screenshot3.jpg "ghostwriter screenshot")
+![ghostwriter](http://wereturtle.github.io/ghostwriter/images/dark-theme.png "ghostwriter screenshot")
 
 ------------------------------------------------------------------------
 

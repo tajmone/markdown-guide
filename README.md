@@ -17,6 +17,9 @@ The markdown-guide project is unrestrictedly free to use: it is released into th
     -   [Editors](#editors)
     -   [CLI Tools](#cli-tools)
         -   [Pandoc](#pandoc)
+-   [Markdown Parsers](#markdown-parsers)
+-   [External Links](#external-links)
+    -   [Frugal Guidance 2](#frugal-guidance-2)
 -   [Awesomeness](#awesomeness)
     -   [Awesome Markdown](#awesome-markdown)
     -   [Awesome Kramdown](#awesome-kramdown)
@@ -31,8 +34,8 @@ About Markdown
 
 Documents on markdown history, its motives, how it evolved, etc.
 
-- https://daringfireball.net/projects/markdown/ -- John Gruber's website: where it all started...
-- [Wikipedia entry for markdown](https://en.wikipedia.org/wiki/Markdown)
+-   <https://daringfireball.net/projects/markdown/> – John Gruber’s website: where it all started…
+-   [Wikipedia entry for markdown](https://en.wikipedia.org/wiki/Markdown)
 
 (WIP – Work In Progress)
 
@@ -57,6 +60,33 @@ Command line tools to perform operations on markdown source files – such as co
 Pandoc is such a key tool in the world of markdown that it deserves a folder of its own within this repo:
 
 -   [`/pandoc/`](./pandoc/) – pandoc related markdown resources.
+
+Markdown Parsers
+================
+
+A first temptative list of markdown parsers:
+
+| NAME                                                      | MD FLAVORS   | EXTENSIBLE | LANGUAGE   |
+|-----------------------------------------------------------|--------------|------------|------------|
+| [markdown-it](https://github.com/markdown-it/markdown-it) | CommonMark   | YES        | JavaScript |
+| [marked](https://github.com/chjj/marked)                  | all MD + GFM |            | JavaScript |
+
+> **NOTE**: Parsers are not being added in a systematic way right now. I’m just adding to the list those parser which, for one reason or another, I’m stumbling across during links-chasing. I do have a long list of parsers to add in my shopping list, and will eventually get around to properly fill this table.
+
+External Links
+==============
+
+Frugal Guidance 2
+-----------------
+
+**Markdown for Bloggers**:
+
+1.  [Introduction](http://andybrandt531.com/2015/03/markdown-for-bloggers-part-1/)
+2.  [Basic Formatting](http://andybrandt531.com/2015/03/markdown-for-bloggers-part-2-basic-formatting/)
+3.  [Headlines & Lists](http://andybrandt531.com/2015/03/markdown-for-bloggers-part-3-headlines-lists/)
+4.  [Web Links](http://andybrandt531.com/2015/03/markdown-for-bloggers-part-4-web-links/)
+5.  [Quoting Text and Code](http://andybrandt531.com/2015/03/markdown-for-bloggers-part-5-quoting-textcode/)
+6.  [The Monster List of Markdown Tools](http://andybrandt531.com/2015/03/markdown-for-bloggers-part-6-monster-list-of-markdown-tools/) (2015)
 
 Awesomeness
 ===========

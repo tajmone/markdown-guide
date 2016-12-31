@@ -26,7 +26,7 @@ Be it a dedicated markdown editor, or a general code editor with markdown-relate
 Intuitive & Smart Key-Bindings
 ------------------------------
 
-Obviously, you don’t want to type two underscores `__` (or asterisks `**`) before and after each text to **bold** , you’d rather select the text, hit <kbd>Ctrl</kbd> + <kbd>B</kbd> and have it automatically **bolded** – and so on with the rest of inline formatting elements.
+Obviously, you don’t want to type two underscores `__` (or asterisks `**`) before and after each text to **bold** , you’d rather select the text, hit <kbd>Ctrl</kbd><kbd>B</kbd> and have it automatically **bolded** – and so on with the rest of inline formatting elements.
 
 The same goes for blocks elements too: you surely *don’t* want to type three backticks ```` ``` ```` (or tildes `~~~`) before and after each codeblock – especially if you have a non-US keyboard, requiring some esoteric Alt-codes to produce these characters! You’d rather want some smart key bindings that allows you to wrap a whole selection into the desired block elements.
 
