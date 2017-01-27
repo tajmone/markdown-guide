@@ -3,6 +3,8 @@ Pandoc
 
 As it name suggests, **pandoc** is the panacea for documents inter-format conversions. It support a variety of markdown formats, and can also be used to convert a markdown document to its input format, to perform cleanup operations.
 
+> You might also want to look at [**PP**](../pp/) Generic Preprocessor (with Pandoc in mind), a powerful tool to enhance pandoc workflow via macros.
+
 ------------------------------------------------------------------------
 
 <!-- #toc -->

@@ -60,6 +60,7 @@ Command line tools to perform operations on markdown source files – such as co
 Pandoc is such a key tool in the world of markdown that it deserves a folder of its own within this repo:
 
 -   [`/pandoc/`](./pandoc/) – pandoc related markdown resources.
+-   [`/pp/`](./pp/) — PP, A Generic Preprocessor with Pandoc in mind.
 
 Markdown Parsers
 ================
