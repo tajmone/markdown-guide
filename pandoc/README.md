@@ -53,7 +53,7 @@ As of pandoc v1.19.1, the supported Markdow formats are:
 
 ### Pandoc Supported Markdown Extensions
 
-As of pandoc v1.19.1, there are 59 supported Markdown extensions – here shown preceded by a `+` or `-` indicating whether it is enabled by default in pandoc’s Markdown:
+As of pandoc v1.19.2.1, there are 59 supported Markdown extensions – here shown preceded by a `+` or `-` indicating whether it is enabled by default in pandoc’s Markdown:
 
 |     | Ext. Name                    |     | Ext. Name                           |
 |-----|------------------------------|-----|-------------------------------------|
@@ -96,7 +96,7 @@ pandoc --list-extensions
 
 ### Pandoc Supported Formats
 
-As of v1.19.1, pandoc supports **22** input- and **41** output-formats:
+As of v1.19.2.1, pandoc supports **22** input- and **41** output-formats:
 
 | INPUT               | OUTPUT              | DESC                                                                                                                                                                                                        |
 |---------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
