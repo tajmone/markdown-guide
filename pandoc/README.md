@@ -195,7 +195,7 @@ If you prefer to use pandoc in standalone mode, you’ll need to extract pandoc 
 2.  Unpack it (using [7-Zip](http://www.7-zip.org/)) and extract and rename the `pandocEXE` file to `pandoc.exe`
 3.  Optionally (if you need to use [CiteProc](https://en.wikipedia.org/wiki/CiteProc) for working with citations and bibliography files) also extract `pandoc_citeprocEXE` and rename it to `pandoc_citeproc.exe`.
 
-Make sure that `pandoc.exe` (and, eventually, `pandoc_citeproc.exe`) is reachable via `%PATH%`, or just put it in the same folder as the `2bbcode.lua` script and the documents you want to convert (this is a good solution if you want to keep all your work within one folder).
+Make sure that `pandoc.exe` (and, eventually, `pandoc_citeproc.exe`) is reachable via `%PATH%`.
 
 Scripts
 =======
