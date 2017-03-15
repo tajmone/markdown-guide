@@ -13,6 +13,8 @@ The markdown-guide project is unrestrictedly free to use: it is released into th
 
 <!-- #toc -->
 -   [About Markdown](#about-markdown)
+    -   [Markdown Flavors](#markdown-flavors)
+        -   [GitHub Flavored Markdown](#github-flavored-markdown)
 -   [Markdown Tools](#markdown-tools)
     -   [Editors](#editors)
     -   [CLI Tools](#cli-tools)
@@ -37,7 +39,23 @@ Documents on markdown history, its motives, how it evolved, etc.
 -   <https://daringfireball.net/projects/markdown/> – John Gruber’s website: where it all started…
 -   [Wikipedia entry for markdown](https://en.wikipedia.org/wiki/Markdown)
 
-(WIP – Work In Progress)
+Markdown Flavors
+----------------
+
+-   [CommonMark Wiki: List of markdown flavors](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors)
+
+There are numerous markdown syntax variants, better known as «markdown flavors» or «dialects», each one differing from the Gruber’s original Markdown implementation in the way syntax rules are implemented and (usually) by introducing new features.
+
+*(WIP – Work In Progress)*
+
+### GitHub Flavored Markdown
+
+GitHub Flavored Markdown (GFM) is the Markdown dialect used by GitHub to visualize user content on GitHub.com and GitHub Enterprise. It’s a very popular Markdown flavor, bringing to markdown some nice extra features – task-lists, emoji, keystrokes, and others.
+
+On March 14th, 2017 [GitHub announced](https://github.com/blog/2333-a-formal-spec-for-github-flavored-markdown) its official formal specification for GFM, based on the CommonMark Spec:
+
+-   [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+-   [GFM Spec details at GitHub Engineering](https://githubengineering.com/a-formal-spec-for-github-markdown/)
 
 Markdown Tools
 ==============
