@@ -12,6 +12,7 @@ PP places itself between markdown source input and pandoc’s input, like a filt
 -   [Features](#features)
 -   [Introduction](#introduction)
 -   [Tutorials](#tutorials)
+-   [Macros Libraries](#macros-libraries)
 -   [PP’s Environment](#pps-environment)
 
 <!-- /toc -->
@@ -78,6 +79,13 @@ All examples are for MS Windows, but with a few adjustments Linux and macOS user
 -   <https://github.com/CDSoft/pp#usage>
 
 > **NOTE:** The tutorials are still in early draft form. What used to be a single tutorial is being now split into multiple tutorials, each subject being expanded on in more depth. Some example files are now provided for the tutorials, hosted inside the [`/examples/`](./examples/) folder.
+
+Macros Libraries
+================
+
+At the “Pandoc-Goodies” project you can find a growing collection of pp-macros:
+
+-   <https://github.com/tajmone/pandoc-goodies/tree/master/pp>
 
 PP’s Environment
 ================

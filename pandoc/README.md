@@ -18,7 +18,10 @@ As it name suggests, **pandoc** is the panacea for documents inter-format conver
         -   [Pandoc MSI Installer](#pandoc-msi-installer)
         -   [Pandoc via Chocolatey](#pandoc-via-chocolatey)
         -   [Pandoc Standalone](#pandoc-standalone)
--   [Scripts](#scripts)
+-   [Pandoc Resources](#pandoc-resources)
+    -   [Scripts](#scripts)
+-   [Pandoc External Resources](#pandoc-external-resources)
+    -   [Templates](#templates)
 
 <!-- /toc -->
 
@@ -98,23 +101,23 @@ pandoc --list-extensions
 
 As of v1.19.2.1, pandoc supports **22** input- and **41** output-formats:
 
-|        INPUT        |        OUTPUT       |                                                                                                     DESC                                                                                                    |
+| INPUT               | OUTPUT              | DESC                                                                                                                                                                                                        |
 |---------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | —                   | `asciidoc`          | [AsciiDoc](http://asciidoc.org/)                                                                                                                                                                            |
 | —                   | `beamer`            | [beamer slide shows](https://ctan.org/pkg/beamer)                                                                                                                                                           |
 | `commonmark`        | `commonmark`        | [CommonMark Markdown](http://commonmark.org/).                                                                                                                                                              |
-| ---                 | `context`           | [ConTeXt](http://wiki.contextgarden.net/Main_Page)                                                                                                                                                          |
+| —                   | `context`           | [ConTeXt](http://wiki.contextgarden.net/Main_Page)                                                                                                                                                          |
 | `docbook`           | `docbook`           | [DocBook 4](http://docbook.org/schemas/4x) – [*DocBook 4 Guide*](http://docbook.org/tdg/).                                                                                                                  |
-| _ibid._             | `docbook5`          | [DocBook 5](http://docbook.org/).                                                                                                                                                                           |
+| *ibid.*             | `docbook5`          | [DocBook 5](http://docbook.org/).                                                                                                                                                                           |
 | `docx`              | `docx`              | Word [docx](https://en.wikipedia.org/wiki/Office_Open_XML).                                                                                                                                                 |
 | —                   | `dokuwiki`          | [DokuWiki markup](https://www.dokuwiki.org/dokuwiki)                                                                                                                                                        |
 | —                   | `dzslides`          | [DZSlides](http://paulrouget.com/dzslides/)                                                                                                                                                                 |
 | `epub`              | `epub`              | [EPUB v2](http://idpf.org/epub/201) book.                                                                                                                                                                   |
-| _ibid._             | `epub3`             | [EPUB v3](http://idpf.org/epub/301) book.                                                                                                                                                                   |
+| *ibid.*             | `epub3`             | [EPUB v3](http://idpf.org/epub/301) book.                                                                                                                                                                   |
 | —                   | `fb2`               | [FictionBook2 e-book](http://www.fictionbook.org/index.php/Eng:XML_Schema_Fictionbook_2.1)                                                                                                                  |
 | `haddock`           | `haddock`           | [Haddock markup](https://www.haskell.org/haddock/doc/html/ch03s08.html).                                                                                                                                    |
 | `html`              | `html`              | HTML 4.                                                                                                                                                                                                     |
-| _ibid._             | `html5`             | HTML 5                                                                                                                                                                                                      |
+| *ibid.*             | `html5`             | HTML 5                                                                                                                                                                                                      |
 | —                   | `icml`              | [InDesign IDML](https://www.adobe.com/content/dam/Adobe/en/devnet/indesign/cs55-docs/IDML/idml-specification.pdf) &gt; [ICML](http://blogs.adobe.com/indesignsdk/idml_file_types/ "InCopy Markup Language") |
 | `json`              | `json`              | [JSON](http://www.json.org/) version of native AST.                                                                                                                                                         |
 | `latex`             | `latex`             | [LaTeX](https://www.latex-project.org).                                                                                                                                                                     |
@@ -126,12 +129,12 @@ As of v1.19.2.1, pandoc supports **22** input- and **41** output-formats:
 | `markdown_strict`   | `markdown_strict`   | original unextended [Markdown](http://daringfireball.net/projects/markdown/).                                                                                                                               |
 | `mediawiki`         | `mediawiki`         | [MediaWiki markup](https://www.mediawiki.org/wiki/Help:Formatting).                                                                                                                                         |
 | `native`            | `native`            | native [Haskell](https://www.haskell.org/).                                                                                                                                                                 |
-| `odt`               | `odt`               | [ODT](http://en.wikipedia.org/wiki/OpenDocument) (OpenOffice text document).                                                                                                            |
-| —                   | `opendocument`      | [OpenDocument](http://opendocument.xml.org/).                                                                                                           |
+| `odt`               | `odt`               | [ODT](http://en.wikipedia.org/wiki/OpenDocument) (OpenOffice text document).                                                                                                                                |
+| —                   | `opendocument`      | [OpenDocument](http://opendocument.xml.org/).                                                                                                                                                               |
 | `opml`              | `opml`              | [OPML](http://dev.opml.org/spec2.html) (Outline Processor Markup Language).                                                                                                                                 |
 | `org`               | `org`               | [Emacs Org mode](http://orgmode.org/).                                                                                                                                                                      |
 | —                   | `plain`             | plain text                                                                                                                                                                                                  |
-| ---                 | `revealjs`          | [revealjs](http://lab.hakim.se/reveal-js/)                                                                                                                                                                  |
+| —                   | `revealjs`          | [revealjs](http://lab.hakim.se/reveal-js/)                                                                                                                                                                  |
 | `rst`               | `rst`               | [reStructuredText](http://docutils.sourceforge.net/docs/ref/rst/introduction.html).                                                                                                                         |
 | —                   | `rtf`               | [Rich Text Format](http://en.wikipedia.org/wiki/Rich_Text_Format)                                                                                                                                           |
 | —                   | `s5`                | [S5 HTML slide shows](http://meyerweb.com/eric/tools/s5/)                                                                                                                                                   |
@@ -143,7 +146,6 @@ As of v1.19.2.1, pandoc supports **22** input- and **41** output-formats:
 | `textile`           | `textile`           | (subsets of) [Textile](http://redcloth.org/textile).                                                                                                                                                        |
 | `twiki`             | —                   | [TWiki markup](http://twiki.org/cgi-bin/view/TWiki/TextFormattingRules).                                                                                                                                    |
 | —                   | `zimwiki`           | [ZimWiki markup](http://zim-wiki.org/manual/Help/Wiki_Syntax.html)                                                                                                                                          |
-
 
 You can view a list of all input formats supported in pandoc by typing:
 
@@ -199,8 +201,24 @@ If you prefer to use pandoc in standalone mode, you’ll need to extract pandoc 
 
 Make sure that `pandoc.exe` (and, eventually, `pandoc_citeproc.exe`) is reachable via `%PATH%`.
 
+Pandoc Resources
+================
+
+Pandoc resources available in this repository.
+
 Scripts
-=======
+-------
 
 -   [`list-pandoc-formats.bat`](./list-pandoc-formats.bat) – generates txt files listing pandoc’s supported: input/output formats, markdown extensions, highlight languages and styles.
+
+Pandoc External Resources
+=========================
+
+-   [Pandoc-Goodies](https://github.com/tajmone/pandoc-goodies) — a repo dedicated to pandoc resources.
+
+Templates
+---------
+
+-   [GitHub HTML5 Template](https://github.com/tajmone/pandoc-goodies/tree/master/templates/html5/github) — a standalone html5 template built with GitHub’s CSS that will provide the GitHubbish look and feel to your converted documents.
+-   [Pandoc Wiki: User contributed templates](https://github.com/jgm/pandoc/wiki/User-contributed-templates)
 
